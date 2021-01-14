@@ -1,0 +1,161 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.atas {
+	padding: 15px 0;
+	background-color: #123C69;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+header h1 {
+	float: left;
+	padding: 15px 0;
+	color: #123C69;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	display: inline-block;
+	padding: 25px 20px;
+}
+header ul li a:hover {
+	background-color: #123C69;
+	color:#fff;
+}
+.active {
+	background-color: #123C69;
+	color:#fff;
+}
+.banner img {
+	display: block;
+	height: 340px;
+	width: 100%;
+
+}
+.about h2 {
+	text-align: center;
+	padding: 35px 0;
+	color: #123C69;
+}
+
+.about p {
+	text-align: center;
+	word-spacing: 2px;
+	line-height: 25px;
+	color: #000000;
+	padding: 25px 0;
+}
+.service {
+	text-align: center;
+	padding: 65px 0;
+	color: #123C69;
+}
+.box {
+	padding: 25px 0;
+	color: #123C69;
+}
+.box .col-5{
+	width: 20%;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.box .col-3{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.col-3 p {
+	color: #123C69;
+}
+.service {
+	padding: 100px;
+}
+.service h2 {
+	padding: 25px;
+}
+.service h4 {
+	text-align: center;
+	padding: 10px;
+}
+.service p {
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+.icon {
+	width: 100px;
+	height: 100px;
+	border:1px solid;
+	border-radius: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+.icon:hover {
+	background-color: #123C69;
+	color: #fff; 
+}
+.icon img {
+	width: 50px;
+	margin: 20px 0;
+	text-align: center;
+	line-height: 80%;
+	color: #123C69;
+}
+.box .col-5 h4 {
+	margin: 10px 0;
+	padding:35px 0;
+}
+.why h2 {
+	text-align: center;
+	padding: 40px 0;
+	color: #123C69;
+}
+.why h3 {
+	color: #123C69;
+	text-align: center;
+	line-height: 25px;
+
+}
+.p3 p {
+	text-align: center;
+	word-spacing: 2px;
+	line-height: 25px;
+	color: #000000;
+	padding: 10px 0; 
+}
+.tombol {
+	display: block;
+	text-decoration: none;
+	padding: 10px 0;
+	width: 120px;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+.tombol:hover {
+	background-color: black;
+    transition-duration: 2s;
+}
+.tombol-link {
+	background-color: #123C69;
+	text-align: center;
+}
+footer {
+	padding: 30px 0;
+	background-color: #123C69;
+	color: #fff;
+	text-align: center;
+}
